@@ -26,7 +26,6 @@ __pycache__/
 # Generated outputs
 expected.txt
 uart_capture.txt
-*.txt  # If most are generated; adjust if you have important .txt docs
 
 # Debug & analysis outputs
 holy_debug/
