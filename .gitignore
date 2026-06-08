@@ -1,0 +1,45 @@
+
+# Vivado Build and General Synthesis Files
+*.runs/
+*.cache/
+*.ip_user_files/
+*.sim/
+*.hw/
+*.jou
+*.log
+
+# Generated data files
+*.npy
+*.npz
+
+# Generated memory/coefficient files
+*.mem
+*.coe
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+
+# Generated outputs
+expected.txt
+uart_capture.txt
+*.txt  # If most are generated; adjust if you have important .txt docs
+
+# Debug & analysis outputs
+holy_debug/
+signals/
+images/
+
+# IDE & OS files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# If you have a virtual environment
+.venv/
+env/
