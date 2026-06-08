@@ -50,3 +50,29 @@ env/
 
 # Images for report (see report for images lol)
 images.zip
+
+## Vitis ignore scheme
+**/Debug/
+.metadata/
+**/Release/
+**/_ide/
+**/.sdk/
+**/*._bsp/
+**/zynq_fsbl/
+**/.cproject
+**.project
+RemoteSystemsTempFiles/
+
+*.log
+*.jou
+
+# Other random Vivado junk
+ps7_cortexa9_0/
+tempdsa/
+omp_acc_bd1_wrapper.bit
+.analytics
+temp_xsdb_launch_script.tcl
+Xilinx.spec
+platform.spr
+platform.tcl
+ps7_init*

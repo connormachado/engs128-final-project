@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="omp_accel_application" location="O:/ENGS-128/vitis_workspace_omp_accel/omp_accel_application" platform="O:/ENGS-128/vitis_workspace_omp_accel/omp_accel_platform/export/omp_accel_platform/omp_accel_platform.xpfm" platformUID="xilinx:zybo-z7-20::0.0(custom)" systemProject="omp_accel_application_system" sysConfig="omp_accel_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="3b34597c92f8f25b2bced9140d788568">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1731191374">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.804987313" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
