@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="56" Path="O:/ENGS-128/omp_accelerator/omp_accelerator.xpr">
+<Project Version="7" Minor="56" Path="O:/ENGS-128/engs128-final-project/omp_accelerator/omp_accelerator.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="63da56c0e1264be98a7593755b88fdfd"/>
@@ -147,14 +147,14 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="omp_acc_bd1.bd" FileRelPathName="ip/omp_acc_bd1_processing_system7_0_0/omp_acc_bd1_processing_system7_0_0.xci">
-          <Proxy FileSetName="omp_acc_bd1_processing_system7_0_0"/>
+        <CompFileExtendedInfo CompFileName="omp_acc_bd1.bd" FileRelPathName="ip/omp_acc_bd1_rst_ps7_0_100M_0/omp_acc_bd1_rst_ps7_0_100M_0.xci">
+          <Proxy FileSetName="omp_acc_bd1_rst_ps7_0_100M_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="omp_acc_bd1.bd" FileRelPathName="ip/omp_acc_bd1_axi_omp_corr_0_0/omp_acc_bd1_axi_omp_corr_0_0.xci">
           <Proxy FileSetName="omp_acc_bd1_axi_omp_corr_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="omp_acc_bd1.bd" FileRelPathName="ip/omp_acc_bd1_rst_ps7_0_100M_0/omp_acc_bd1_rst_ps7_0_100M_0.xci">
-          <Proxy FileSetName="omp_acc_bd1_rst_ps7_0_100M_0"/>
+        <CompFileExtendedInfo CompFileName="omp_acc_bd1.bd" FileRelPathName="ip/omp_acc_bd1_processing_system7_0_0/omp_acc_bd1_processing_system7_0_0.xci">
+          <Proxy FileSetName="omp_acc_bd1_processing_system7_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/omp_acc_bd1/hdl/omp_acc_bd1_wrapper.vhd">
@@ -296,7 +296,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="omp_acc_bd1_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="omp_acc_bd1_processing_system7_0_0" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_processing_system7_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/omp_acc_bd1_processing_system7_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/omp_acc_bd1_processing_system7_0_0_synth_1">
+    <Run Id="omp_acc_bd1_processing_system7_0_0_synth_1" Type="Ft3:Synth" SrcSet="omp_acc_bd1_processing_system7_0_0" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_processing_system7_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/omp_acc_bd1_processing_system7_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../../omp_accelerator/omp_accelerator.srcs/utils_1/imports/omp_acc_bd1_processing_system7_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
         <Step Id="synth_design"/>
@@ -306,7 +306,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="omp_acc_bd1_rst_ps7_0_100M_0_synth_1" Type="Ft3:Synth" SrcSet="omp_acc_bd1_rst_ps7_0_100M_0" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_rst_ps7_0_100M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/omp_acc_bd1_rst_ps7_0_100M_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/omp_acc_bd1_rst_ps7_0_100M_0_synth_1">
+    <Run Id="omp_acc_bd1_rst_ps7_0_100M_0_synth_1" Type="Ft3:Synth" SrcSet="omp_acc_bd1_rst_ps7_0_100M_0" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_rst_ps7_0_100M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/omp_acc_bd1_rst_ps7_0_100M_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../../omp_accelerator/omp_accelerator.srcs/utils_1/imports/omp_acc_bd1_rst_ps7_0_100M_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
         <Step Id="synth_design"/>
@@ -316,7 +316,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="omp_acc_bd1_axi_omp_corr_0_0_synth_1" Type="Ft3:Synth" SrcSet="omp_acc_bd1_axi_omp_corr_0_0" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_axi_omp_corr_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/omp_acc_bd1_axi_omp_corr_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/omp_acc_bd1_axi_omp_corr_0_0_synth_1">
+    <Run Id="omp_acc_bd1_axi_omp_corr_0_0_synth_1" Type="Ft3:Synth" SrcSet="omp_acc_bd1_axi_omp_corr_0_0" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_axi_omp_corr_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/omp_acc_bd1_axi_omp_corr_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PPRDIR/../../omp_accelerator/omp_accelerator.srcs/utils_1/imports/omp_acc_bd1_axi_omp_corr_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
         <Step Id="synth_design"/>
@@ -326,7 +326,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../omp_accelerator/omp_accelerator.srcs/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
@@ -344,7 +344,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="omp_acc_bd1_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_processing_system7_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="omp_acc_bd1_processing_system7_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/omp_acc_bd1_processing_system7_0_0_impl_1">
+    <Run Id="omp_acc_bd1_processing_system7_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_processing_system7_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="omp_acc_bd1_processing_system7_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../omp_accelerator/omp_accelerator.srcs/utils_1/imports/omp_acc_bd1_processing_system7_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
@@ -361,7 +361,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="omp_acc_bd1_rst_ps7_0_100M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_rst_ps7_0_100M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="omp_acc_bd1_rst_ps7_0_100M_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/omp_acc_bd1_rst_ps7_0_100M_0_impl_1">
+    <Run Id="omp_acc_bd1_rst_ps7_0_100M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_rst_ps7_0_100M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="omp_acc_bd1_rst_ps7_0_100M_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../omp_accelerator/omp_accelerator.srcs/utils_1/imports/omp_acc_bd1_rst_ps7_0_100M_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
@@ -378,7 +378,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="omp_acc_bd1_axi_omp_corr_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_axi_omp_corr_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="omp_acc_bd1_axi_omp_corr_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/omp_acc_bd1_axi_omp_corr_0_0_impl_1">
+    <Run Id="omp_acc_bd1_axi_omp_corr_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="omp_acc_bd1_axi_omp_corr_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="omp_acc_bd1_axi_omp_corr_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../omp_accelerator/omp_accelerator.srcs/utils_1/imports/omp_acc_bd1_axi_omp_corr_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
         <Step Id="init_design"/>
