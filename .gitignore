@@ -1,5 +1,5 @@
 
-# Vivado Build and General Synthesis Files
+# Vivado Build and General Synthesis Files that we DONT want
 *.runs/
 *.cache/
 *.ip_user_files/
@@ -7,6 +7,9 @@
 *.hw/
 *.jou
 *.log
+*.gen/
+component.xml
+*.dcp
 
 # Generated data files
 *.npy
@@ -26,6 +29,8 @@ __pycache__/
 # Generated outputs
 expected.txt
 uart_capture.txt
+sweep/
+sim_drop_in_files/
 
 # Debug & analysis outputs
 holy_debug/
@@ -42,3 +47,6 @@ images/
 # If you have a virtual environment
 .venv/
 env/
+
+# Images for report (see report for images lol)
+images.zip
